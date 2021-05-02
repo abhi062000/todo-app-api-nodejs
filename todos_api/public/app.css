@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Signika:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightblue;
+  font-family: "Signika", sans-serif;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 2rem auto;
+}
+header h3 {
+  font-family: "Lobster", cursive;
+}
+
+span {
+  color: red;
+}
+
+.form input {
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+  margin: 1rem auto;
+  width: 100%;
+  background: transparent;
+  font-size: 1.2rem;
+}
+
+.form input:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(6, 52, 179);
+}
+
+.list {
+  position: relative;
+}
+
+.list > .task {
+  padding: 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  background-color: lightskyblue;
+  margin: 1rem;
+  width: 100%;
+}
+
+.task:hover {
+  background-color: rgb(202, 230, 240);
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.list span {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
